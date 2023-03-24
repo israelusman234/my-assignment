@@ -5,59 +5,123 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>semantic tag</title>
-    <style>
-    </style>
+    <style></style>
   </head>
   <body>
     <header>
+      <img src="img/download.png" />
       <nav>
-         <ul>
-           <li><a href="#home">Home</a></li>
-           <li><a href="#about">About</a></li>
-           <li><a href="#work">Work</a></li>
-           <li><a href="#resume">Resume</a></li>
-           <li><a href="#contact">Contact</a></li>
-         </ul>
+        <ul>
+          <li class="nav-link"><a href="#home">Home</a></li>
+          <li class="nav-link"><a href="#work">Work</a></li>
+          <li class="nav-link"><a href="#about">About</a></li>
+          <li class="nav-link"><a href="#resume">Resume</a></li>
+          <li class="nav-link"><a href="contact">Contact</a></li>
+        </ul>
       </nav>
     </header>
 
-      <main>
-        <section>
+    <main>
+      <section id="Home">
+        <h1>Home Section</h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit nulla
+          esse, soluta, dolores fuga temporibus exercitationem, laborum expedita
+          quasi quo dolorum inventore deserunt dicta officiis aperiam facilis?
+          Ipsam, et at!20
+        </p>
+      </section>
+
+      <section id="Work">
         <h2>About Section</h2>
-        </section>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae non
+          suscipit mollitia. Excepturi odit modi dicta sint quod sunt facere
+          inventore nisi aspernatur ratione iusto repellat molestias quo, eaque
+          fugit natus iure odio ea ut nostrum ipsa omnis neque mollitia magni?
+          Asperiores et accusantium doloribus eos eaque inventore in iusto
+          veritatis deserunt nostrum. Voluptatum neque ipsa odit iusto illo
+          molestias. Officia, commodi culpa. Inventore consequuntur repudiandae
+          delectus laborum, natus ipsum ratione? Repellat minima incidunt cumque
+          est, quidem, voluptatem at consequatur dolorum aliquid similique
+          dolorem accusantium obcaecati illo libero accusamus repellendus neque
+          natus. Obcaecati cum id quis quaerat praesentium quod veniam
+          voluptates tenetur? Suscipit eaque dolorem, debitis esse explicabo
+          mollitia ipsa voluptates libero! Consequatur animi explicabo dicta eos
+          ratione modi minima eaque ut nostrum magni, enim unde similique quidem
+          voluptatibus nam tempora possimus ab obcaecati dolor. Earum doloremque
+          corporis voluptatum, rem magni blanditiis facere molestiae officia
+          quisquam possimus provident laborum, similique a voluptate illum eum
+          sit repellat ea. Id, non adipisci autem possimus rerum numquam
+          doloremque voluptates omnis! Possimus in at corporis enim facilis quis
+          id. Libero sunt explicabo impedit illo quos commodi magni nulla, ea
+          porro. Consectetur ullam minima in dolor reprehenderit rerum debitis
+          nihil, perferendis iusto, nobis neque! Ipsam?
+        </p>
+        <video src="./test.mp4" controls></video>
+      </section>
 
-        <section>
+      <section id="About">
         <h2>Work Section</h2>
-        </section>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, sequi
+          aliquam nam, tempore ab architecto odio ipsa expedita fugiat
+          reiciendis ea recusandae necessitatibus temporibus culpa atque ducimus
+          eligendi? Obcaecati recusandae deleniti amet inventore vero ab
+          delectus. Magnam quidem error ducimus natus laudantium deleniti
+          commodi inventore. Excepturi perspiciatis possimus unde consequuntur.
+        </p>
+        <video controls>
+          <source
+            src="/video/asake -yoga (official video)
+          .mp4 type=video"
+          />
+        </video>
+      </section>
 
-        <section>
-            <h3>Resume Section</h3>
-        </section>
+      <section id="Resume">
+        <h3>Resume Section</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis vitae
+          commodi at ea asperiores id ducimus vero eius earum saepe culpa
+          tempore neque, eos, labore ab. Quidem eos reprehenderit harum vitae
+          voluptatum, quo aliquid consequatur facere aliquam obcaecati accusamus
+          officiis saepe magnam aut ut voluptate distinctio deserunt ipsam
+          atque. Amet.
+        </p>
+      </section>
 
-        <section>
-            <h3>Contact Section</h3>
-            <form>
-              <label for="fname">First name:</label><br>
-              <input type="text" id="fname" name="fname"paceholder="first name"><br>
-              <label for="lname">Last name:</label><br>
-              <lnput type="text" id="lname" name="lname"placeholder="last name"><br><br>
-              <label for="email">Email</label><br>
-              <input type="email" id="email" name="Email" placeholder="Email"><br><br>
-              <label for="password">Password:</label><br>
-              <input type="password" id="password" name="password" placeholder="password"><br><br>
-              <input type="submit" value="Submit">
-            </form>
-        </section>
-      </main>
-
-    <h1>click play button to play audio</h1>
-    <audio src="./test.mp3" controls></audio>
-
-    <h2>click play button to play video</h2>
-    <video src="./test.mp4" controls></video>
+      <section id="Contact">
+        <h3>Contact Section</h3>
+        <form>
+          <label for="first name">First name:</label><br />
+          <input
+            type="text"
+            id="first name"
+            name="First name"
+            placeholder="First name"
+          /><br /><br />
+          <label for="last name">Last name:</label><br />
+          <input
+            type="text"
+            id="last name"
+            name="Last name"
+            placeholder="last name"
+          /><br /><br />
+          <label for="email">Email:</label><br />
+          <input
+            type="text"
+            id="email"
+            name="email"
+            placeholder="email"
+          /><br /><br />
+          <input type="submit" value="Submit" />
+        </form>
+      </section>
+    </main>
 
     <footer>
-        <p>my footer</p>
+      <p>my footer</p>
     </footer>
   </body>
 </html>
